@@ -1,0 +1,3 @@
+function forest_maybewolf()
+{
+}

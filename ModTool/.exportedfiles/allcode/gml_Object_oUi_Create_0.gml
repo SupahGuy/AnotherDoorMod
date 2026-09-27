@@ -1,0 +1,2 @@
+btnCursor = undefined;
+btnSettings = undefined;

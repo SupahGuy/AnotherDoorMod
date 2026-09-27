@@ -1,0 +1,2 @@
+verbActive = [];
+chatBoxCreatedThisStep = false;

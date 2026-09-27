@@ -1,0 +1,41 @@
+function __InputCreateGamepadBindingNameLookup()
+{
+    var _map = ds_map_create();
+    ds_map_set(_map, -32785, "thumbstick l left");
+    ds_map_set(_map, -32786, "thumbstick l up");
+    ds_map_set(_map, 32785, "thumbstick l right");
+    ds_map_set(_map, 32786, "thumbstick l down");
+    ds_map_set(_map, 32779, "thumbstick l click");
+    ds_map_set(_map, -32787, "thumbstick r left");
+    ds_map_set(_map, -32788, "thumbstick r up");
+    ds_map_set(_map, 32787, "thumbstick r right");
+    ds_map_set(_map, 32788, "thumbstick r down");
+    ds_map_set(_map, 32780, "thumbstick r click");
+    ds_map_set(_map, 32773, "shoulder l");
+    ds_map_set(_map, 32774, "shoulder r");
+    ds_map_set(_map, 32775, "trigger l");
+    ds_map_set(_map, 32776, "trigger r");
+    ds_map_set(_map, 32781, "dpad up");
+    ds_map_set(_map, 32782, "dpad down");
+    ds_map_set(_map, 32783, "dpad left");
+    ds_map_set(_map, 32784, "dpad right");
+    ds_map_set(_map, 32769, "face south");
+    ds_map_set(_map, 32770, "face east");
+    ds_map_set(_map, 32771, "face west");
+    ds_map_set(_map, 32772, "face north");
+    ds_map_set(_map, 32777, "select");
+    ds_map_set(_map, 32778, "start");
+    ds_map_set(_map, 32799, "home");
+    ds_map_set(_map, 32804, "paddle r");
+    ds_map_set(_map, 32805, "paddle l");
+    ds_map_set(_map, 32806, "paddle rb");
+    ds_map_set(_map, 32807, "paddle lb");
+    ds_map_set(_map, 32800, "extra 1");
+    ds_map_set(_map, 32801, "extra 2");
+    ds_map_set(_map, 32802, "extra 3");
+    ds_map_set(_map, 32803, "extra 4");
+    ds_map_set(_map, 32809, "extra 5");
+    ds_map_set(_map, 32810, "extra 6");
+    ds_map_set(_map, 32808, "touchpad");
+    return _map;
+}

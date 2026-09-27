@@ -1,0 +1,46 @@
+
+
+//Comments like this technically violate the JSON standard, but the game will filter them out automatically when loading the file
+//This is useful in case you need to add notes or instructions to your translator for specific lines.
+//Note: This only works with double slash comments, not slash star comment star slash.
+{
+    "langs": [
+        { 
+            "langName": "Anglais",
+            "stringsFile": "stringsEN.json",
+        },
+        {
+           "langName": "Français",
+            "stringsFile": "stringsFR.json",
+        },
+        {
+           "langName": "Allemand",
+            "stringsFile": "stringsDE.json",
+        },
+        {
+           "langName": "Japonais",
+            "stringsFile": "stringsJP.json",
+        },
+        {
+           "langName": "Chinois",
+            "stringsFile": "stringsSC.json",
+        },
+        {
+           "langName": "Espagnol",
+            "stringsFile": "stringsES.json",
+        },
+        {
+           "langName": "Portugais",
+            "stringsFile": "stringsBR.json",
+        },
+        {
+           "langName": "Russe",
+            "stringsFile": "stringsRU.json",
+        },
+        {
+           "langName": "Italien",
+            "stringsFile": "stringsIT.json",
+        }
+    ]
+}
+

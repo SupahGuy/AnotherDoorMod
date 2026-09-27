@@ -1,0 +1,1 @@
+canSendReady = true;
